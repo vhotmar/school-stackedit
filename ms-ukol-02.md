@@ -64,8 +64,10 @@ Ze zadání máme ověřit, zda děti z malých tříd dosahují lepších výsl
 $$H_0: \mu_{X}-\mu_{Y}=0$$
 Tedy že mezi střední hodnotou obou nezávislých výběrů není rozdíl a naše **alternativa** bude:
 $$H_1: \mu_{X}>\mu_{Y}$$
-Tedy, že střední hodnota $X_i$ je vyšší než střední hodnota $Y_i$. Z těchto informací je zřejmé že můžeme využít *dvouvýběrový t-test bez předpokladu shody rozptylu*. *Testovanou statistikou* tedy je:
+Tedy, že střední hodnota $X_i$ je vyšší než střední hodnota $Y_i$. Z těchto informací je zřejmé že můžeme využít *dvouvýběrový t-test bez předpokladu shody rozptylu*. **Testovanou statistikou** tedy je:
 $$\widetilde{T}_{n,m}=\frac{\overline{X}_n-\overline{Y}_m}{\sqrt{S^2_X/n+S^2_Y/m}}$$
+**Kritickým oborem** je:
+
 ## 2. Úkol
 ### Zadání
 Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
@@ -82,7 +84,7 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMzE2NDA5LDE2MjU4Nzg5MTAsLTcwNz
-MxMzIwOCw2NTM5NzgyMzYsODA2NzkwOTM2LC0xODYzMTc1NTM5
-LC0xNDI0NTE5MjA2XX0=
+eyJoaXN0b3J5IjpbLTk5NDAyNDU0NSwxNjI1ODc4OTEwLC03MD
+czMTMyMDgsNjUzOTc4MjM2LDgwNjc5MDkzNiwtMTg2MzE3NTUz
+OSwtMTQyNDUxOTIwNl19
 -->
