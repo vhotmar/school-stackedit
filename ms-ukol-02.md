@@ -39,9 +39,23 @@ Poté se podíváme na to jak tyto data vypadají:
 ```
 Poté se také můžem podívat na histogramy těchto 2 datasetuů pro výsledky jak z matematiky, tak ze čtení:
 ```r
+make_histogram <- function(data, x, title, subtitle) {
+  ggplot(data, aes(x = eval(parse(text = x)), fill = Class)) +
+    geom_histogram(bins = 10, size = .2, colour='black') +
+    labs(title = title, subtitle = subtitle, y = "Počet", x = "Skóre") +
+    theme(legend.position = "none")
+}
 
+p1 <- make_histogram(data_mensi_trida, "Math", "Výsledky z matematiky", "Menší třída") + xlim(400, 600)
+p2 <- make_histogram(data_klasicka_trida, "Math", "Výsledky z matematiky", "Klasická třída") + xlim(400, 600)
+p3 <- make_histogram(data_mensi_trida, "Read", "Výsledky ze čtení", "Menší třída") + xlim(350, 550)
+p4 <- make_histogram(data_klasicka_trida, "Read", "Výsledky ze čtení", "Klasická třída") + xlim(350, 550)
+
+(p1 + p3) / (p2 + p4)
 ```
+Výsledkem tohoto kódu jsou následující grafy:
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
+Vidíme, že 
 ## 2. Úkol
 ### Zadání
 
@@ -51,6 +65,6 @@ Poté se také můžem podívat na histogramy těchto 2 datasetuů pro výsledky
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTAyNjM2LDY1Mzk3ODIzNiw4MDY3OT
-A5MzYsLTE4NjMxNzU1MzksLTE0MjQ1MTkyMDZdfQ==
+eyJoaXN0b3J5IjpbMjA0NTE1MDA0MSw2NTM5NzgyMzYsODA2Nz
+kwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
 -->
