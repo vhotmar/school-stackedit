@@ -11,7 +11,7 @@ data <- STAR[indexy,];
 ```
 ## 1. Úkol
 ### Zadání
-Dosahují děti z malých tříd lepších studijních výsledků než děti z klasické třídy? Porovnání proveďte zvlášť pro matematiku a zvlášť pro čtení.
+> Dosahují děti z malých tříd lepších studijních výsledků než děti z klasické třídy? Porovnání proveďte zvlášť pro matematiku a zvlášť pro čtení.
 ### Řešení
 Nejprve si naše data rozdělíme na 2 části:
 ```r
@@ -100,7 +100,7 @@ mean of x mean of y
 ```
 ## 2. Úkol
 ### Zadání
-Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
+> Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
 ### Řešení
 ```r
 > summary(data$Lunch)
@@ -114,7 +114,8 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDAwOTMxNiwxNzcwNTIyNzUwLDE2Mj
-U4Nzg5MTAsLTcwNzMxMzIwOCw2NTM5NzgyMzYsODA2NzkwOTM2
-LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
+eyJoaXN0b3J5IjpbLTE3MzkzMjk3NjQsLTMwMDAwOTMxNiwxNz
+cwNTIyNzUwLDE2MjU4Nzg5MTAsLTcwNzMxMzIwOCw2NTM5Nzgy
+MzYsODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX
+0=
 -->
