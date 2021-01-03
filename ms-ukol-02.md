@@ -18,6 +18,26 @@ Nejprve si naše data rozdělíme na 2 části:
 data_mensi_trida <- subset(data, Class == 'small')
 data_klasicka_trida <- subset(data, Class == 'regular')
 ```
+Poté se podíváme na to jak tyto data vypadají:
+```r
+> summary(data_mensi_trida)
+      Math            Read                     Class      Sex        Race    Lunch   
+ Min.   :405.7   Min.   :393.9   regular          : 0   boy :33   black:26   no :39  
+ 1st Qu.:454.3   1st Qu.:415.9   regular.with.aide: 0   girl:35   other: 0   yes:29  
+ Median :481.2   Median :430.4   small            :68             white:42           
+ Mean   :482.5   Mean   :434.2                                                       
+ 3rd Qu.:513.1   3rd Qu.:450.2                                                       
+ Max.   :576.9   Max.   :538.2                                                       
+> summary(data_klasicka_trida)
+      Math            Read                     Class      Sex        Race    Lunch   
+ Min.   :392.8   Min.   :378.6   regular          :88   boy :45   black:26   no :48  
+ 1st Qu.:458.1   1st Qu.:421.1   regular.with.aide: 0   girl:43   other: 0   yes:40  
+ Median :484.8   Median :431.2   small            : 0             white:62           
+ Mean   :490.4   Mean   :435.0                                                       
+ 3rd Qu.:520.5   3rd Qu.:448.7                                                       
+ Max.   :603.0   Max.   :518.0       
+```
+
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
 ## 2. Úkol
 ### Zadání
@@ -28,6 +48,6 @@ data_klasicka_trida <- subset(data, Class == 'regular')
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzOTc4MjM2LDgwNjc5MDkzNiwtMTg2Mz
-E3NTUzOSwtMTQyNDUxOTIwNl19
+eyJoaXN0b3J5IjpbLTE3NjE3MjA4MDksNjUzOTc4MjM2LDgwNj
+c5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIwNl19
 -->
