@@ -19,7 +19,7 @@ data_mensi_trida <- subset(data, Class == 'small')
 data_klasicka_trida <- subset(data, Class == 'regular')
 ```
 Poté se podíváme na to jak tyto data vypadají:
-```r
+```
 > summary(data_mensi_trida)
       Math            Read                     Class      Sex        Race    Lunch   
  Min.   :405.7   Min.   :393.9   regular          : 0   boy :33   black:26   no :39  
@@ -48,6 +48,6 @@ Poté se podíváme na to jak tyto data vypadají:
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE3MjA4MDksNjUzOTc4MjM2LDgwNj
-c5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIwNl19
+eyJoaXN0b3J5IjpbNjQ1MTE0OTkzLDY1Mzk3ODIzNiw4MDY3OT
+A5MzYsLTE4NjMxNzU1MzksLTE0MjQ1MTkyMDZdfQ==
 -->
