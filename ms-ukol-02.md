@@ -61,7 +61,7 @@ Výsledkem tohoto kódu jsou následující grafy:
 Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení bude pro obě dvě třídy velice podobná (svislá čára ukazuje průměr).
 
 Ze zadání máme ověřit, zda děti z malých tříd dosahují lepších výsledků než děti z klasických tříd. Označme si $X_i$ - výsledky studentů z menší třídy a $Y_i$ - výsledky studentů z klasické třídy. To, že je jedna třída dosahuje lepších výsledků můžeme ověřit podle toho zda střední hodnota $X_i$ je větší než střední hodnota $Y_i$. Jelikož nic bližšího o distribucích $X_i$ a $Y_i$ nevím, náš **model** bude $\mathcal{F}=\lbrace F_X \in \mathcal{L}^2_+, F_Y \in \mathcal{L}^2_+ \rbrace$. **Testované parametry**, jsou $\mu_{X}=\mathbb{E}X$ a $\mu_{Y}=\mathbb{E}Y$ a naše **nulová hypotéza** bude:
-$$H_0: \mu_{X}-\mu_{Y}=0$$
+$$H_0: \mu_{X}\le\mu_{Y}$$
 Tedy že mezi střední hodnotou obou nezávislých výběrů není rozdíl a naše **alternativa** bude:
 $$H_1: \mu_{X}>\mu_{Y}$$
 Tedy, že střední hodnota $X_i$ je vyšší než střední hodnota $Y_i$. Z těchto informací je zřejmé že můžeme využít *dvouvýběrový t-test bez předpokladu shody rozptylu*. **Testovanou statistikou** tedy je:
@@ -85,7 +85,7 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjQyNzY0MywxNjI1ODc4OTEwLC03MD
+eyJoaXN0b3J5IjpbMTc3MDUyMjc1MCwxNjI1ODc4OTEwLC03MD
 czMTMyMDgsNjUzOTc4MjM2LDgwNjc5MDkzNiwtMTg2MzE3NTUz
 OSwtMTQyNDUxOTIwNl19
 -->
