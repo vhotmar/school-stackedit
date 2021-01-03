@@ -68,6 +68,7 @@ Tedy, že střední hodnota $X_i$ je vyšší než střední hodnota $Y_i$. Z t�
 $$\widetilde{T}_{n,m}=\frac{\overline{X}_n-\overline{Y}_m}{\sqrt{S^2_X/n+S^2_Y/m}}$$
 Kde $\overline{X}_n$ a $\overline{Y}_n$ jsou aritmetické průměry obou výběrů a $S^2_X$, $S^2_Y$ jsou výběrové rozptyly. **Kritickým oborem** je:
 $$H_0 \text{ zamítneme} \iff |\widetilde{T}_{n,m}| \ge u_{1-\alpha} $$
+Kde $u_{1-\alpha}$ je $(1-\alpha)$-tý kvantil normovaného normálního rozdělení $N(0,1)$
 ## 2. Úkol
 ### Zadání
 Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
@@ -84,7 +85,7 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg4OTExNDQsMTYyNTg3ODkxMCwtNz
-A3MzEzMjA4LDY1Mzk3ODIzNiw4MDY3OTA5MzYsLTE4NjMxNzU1
-MzksLTE0MjQ1MTkyMDZdfQ==
+eyJoaXN0b3J5IjpbOTgwNTU1Mzc0LDE2MjU4Nzg5MTAsLTcwNz
+MxMzIwOCw2NTM5NzgyMzYsODA2NzkwOTM2LC0xODYzMTc1NTM5
+LC0xNDI0NTE5MjA2XX0=
 -->
