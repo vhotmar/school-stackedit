@@ -19,7 +19,7 @@ data_mensi_trida <- subset(data, Class == 'small')
 data_klasicka_trida <- subset(data, Class == 'regular')
 ```
 Poté se podíváme na to jak tyto data vypadají:
-```
+```r
 > summary(data_mensi_trida)
       Math            Read                     Class      Sex        Race    Lunch   
  Min.   :405.7   Min.   :393.9   regular          : 0   boy :33   black:26   no :39  
@@ -65,7 +65,9 @@ Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení 
 Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
 ### Řešení
 ```r
-summary(data$Lunch)
+> summary(data$Lunch)
+ no yes 
+125 115 
 ```
 
 ## 3. Úkol
@@ -74,7 +76,7 @@ summary(data$Lunch)
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNTUzMTM5LC03MDczMTMyMDgsNjUzOT
-c4MjM2LDgwNjc5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIw
-Nl19
+eyJoaXN0b3J5IjpbMTYyNTg3ODkxMCwtNzA3MzEzMjA4LDY1Mz
+k3ODIzNiw4MDY3OTA5MzYsLTE4NjMxNzU1MzksLTE0MjQ1MTky
+MDZdfQ==
 -->
