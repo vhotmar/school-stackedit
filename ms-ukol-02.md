@@ -19,7 +19,7 @@ data_mensi_trida <- subset(data, Class == 'small')
 data_klasicka_trida <- subset(data, Class == 'regular')
 ```
 Poté se podíváme na to jak tyto data vypadají:
-```r
+```
 > summary(data_mensi_trida)
       Math            Read                     Class      Sex        Race    Lunch   
  Min.   :405.7   Min.   :393.9   regular          : 0   boy :33   black:26   no :39  
@@ -69,6 +69,35 @@ $$\widetilde{T}_{n,m}=\frac{\overline{X}_n-\overline{Y}_m}{\sqrt{S^2_X/n+S^2_Y/m
 Kde $\overline{X}_n$ a $\overline{Y}_n$ jsou aritmetické průměry obou výběrů a $S^2_X$, $S^2_Y$ jsou výběrové rozptyly. **Kritickým oborem** je:
 $$H_0 \text{ zamítneme} \iff \widetilde{T}_{n,m} \ge u_{1-\alpha} $$
 Kde $u_{1-\alpha}$ je $(1-\alpha)$-tý kvantil normovaného normálního rozdělení $N(0,1)$. A **p-hodnotu** spočteme jako $p=1-\Phi(t)$.
+Teď se test pokusíme provést jak pro výsledky žáků z matematiky, tak i pro výsledky ze čtení:
+```
+> t.test(data_mensi_trida$Math, data_klasicka_trida$Math, alternative = "greater", var.equal = FALSE)
+
+	Welch Two Sample t-test
+
+data:  data_mensi_trida$Math and data_klasicka_trida$Math
+t = -1.1298, df = 142.7, p-value = 0.8698
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -19.37767       Inf
+sample estimates:
+mean of x mean of y 
+ 482.5309  490.3908 
+ 
+> t.test(data_mensi_trida$Read, data_klasicka_trida$Read, alternative = "greater", var.equal = FALSE)
+
+	Welch Two Sample t-test
+
+data:  data_mensi_trida$Read and data_klasicka_trida$Read
+t = -0.20235, df = 145.12, p-value = 0.58
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -7.803009       Inf
+sample estimates:
+mean of x mean of y 
+ 434.1563  435.0063 
+
+```
 ## 2. Úkol
 ### Zadání
 Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
@@ -85,7 +114,7 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDUyMjc1MCwxNjI1ODc4OTEwLC03MD
-czMTMyMDgsNjUzOTc4MjM2LDgwNjc5MDkzNiwtMTg2MzE3NTUz
-OSwtMTQyNDUxOTIwNl19
+eyJoaXN0b3J5IjpbLTMwMDAwOTMxNiwxNzcwNTIyNzUwLDE2Mj
+U4Nzg5MTAsLTcwNzMxMzIwOCw2NTM5NzgyMzYsODA2NzkwOTM2
+LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
 -->
