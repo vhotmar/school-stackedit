@@ -56,12 +56,13 @@ p4 <- make_histogram(data_klasicka_trida, "Read", "Výsledky ze čtení", "Klasi
 ```
 Výsledkem tohoto kódu jsou následující grafy:
 
-![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg?t=1)
+![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg?t=2)
 
-Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení bude pro obě dvě třídy velice podobná.
+Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení bude pro obě dvě třídy velice podobná (svislá čára ukazuje průměr).
 
 ## 2. Úkol
 ### Zadání
+Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 
 ## 3. Úkol
 ### Zadání
@@ -69,7 +70,7 @@ Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení 
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU3MjYyMTksLTcwNzMxMzIwOCw2NT
+eyJoaXN0b3J5IjpbLTEwNzYwMzkxODQsLTcwNzMxMzIwOCw2NT
 M5NzgyMzYsODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5
 MjA2XX0=
 -->
