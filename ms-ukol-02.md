@@ -55,9 +55,10 @@ p4 <- make_histogram(data_klasicka_trida, "Read", "Výsledky ze čtení", "Klasi
 ```
 Výsledkem tohoto kódu jsou následující grafy:
 
-![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
+![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg?t=1)
 
 Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení bude pro obě dvě třídy velice podobná.
+
 ## 2. Úkol
 ### Zadání
 
@@ -67,6 +68,6 @@ Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení 
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODUzMTUwNSw2NTM5NzgyMzYsODA2Nz
+eyJoaXN0b3J5IjpbLTcwNzMxMzIwOCw2NTM5NzgyMzYsODA2Nz
 kwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
 -->
