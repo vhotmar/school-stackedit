@@ -1,6 +1,9 @@
 # Matematická statistika - Úkol č. 2
-Pro tento úkol jsem použil seed `212` (neboť mé datum narození je 2. 12.).
+Pro tento úkol jsem použil seed `212` (neboť mé datum narození je 2. 12.). Dále načteme potřebné knihovny pro pohodlnou práci s R.
 ```r
+library(ggplot2)
+library
+
 set.seed(212);
 n <- sample(200:300, size=1);
 indexy <- sample(1:1851, size=n);
@@ -25,6 +28,6 @@ data_klasicka_trida <- subset(data, Class == 'regular')
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA5NjA2NDYsLTE4NjMxNzU1MzksLT
-E0MjQ1MTkyMDZdfQ==
+eyJoaXN0b3J5IjpbODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xND
+I0NTE5MjA2XX0=
 -->
