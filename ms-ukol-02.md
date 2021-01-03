@@ -42,6 +42,7 @@ Poté se také můžem podívat na histogramy těchto 2 datasetuů pro výsledky
 make_histogram <- function(data, x, title, subtitle) {
   ggplot(data, aes(x = eval(parse(text = x)), fill = Class)) +
     geom_histogram(bins = 10, size = .2, colour='black') +
+    geom_vline(aes(xintercept = mean(eval(parse(text = x)))), color = "black", linetype = "dashed", size=1) +
     labs(title = title, subtitle = subtitle, y = "Počet", x = "Skóre") +
     theme(legend.position = "none")
 }
@@ -68,6 +69,7 @@ Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení 
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzMxMzIwOCw2NTM5NzgyMzYsODA2Nz
-kwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
+eyJoaXN0b3J5IjpbLTEyOTU3MjYyMTksLTcwNzMxMzIwOCw2NT
+M5NzgyMzYsODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5
+MjA2XX0=
 -->
