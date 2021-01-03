@@ -18,7 +18,7 @@ Nejprve si naše data rozdělíme na 2 části:
 data_mensi_trida <- subset(data, Class == 'small')
 data_klasicka_trida <- subset(data, Class == 'regular')
 ```
-
+![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
 ## 2. Úkol
 ### Zadání
 
@@ -28,6 +28,6 @@ data_klasicka_trida <- subset(data, Class == 'regular')
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xND
-I0NTE5MjA2XX0=
+eyJoaXN0b3J5IjpbNjUzOTc4MjM2LDgwNjc5MDkzNiwtMTg2Mz
+E3NTUzOSwtMTQyNDUxOTIwNl19
 -->
