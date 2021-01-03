@@ -37,7 +37,10 @@ Poté se podíváme na to jak tyto data vypadají:
  3rd Qu.:520.5   3rd Qu.:448.7                                                       
  Max.   :603.0   Max.   :518.0       
 ```
+Poté se také můžem podívat na histogramy těchto 2 datasetuů pro výsledky jak z matematiky, tak ze čtení:
+```r
 
+```
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
 ## 2. Úkol
 ### Zadání
@@ -48,6 +51,6 @@ Poté se podíváme na to jak tyto data vypadají:
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MTE0OTkzLDY1Mzk3ODIzNiw4MDY3OT
+eyJoaXN0b3J5IjpbLTM2MTAyNjM2LDY1Mzk3ODIzNiw4MDY3OT
 A5MzYsLTE4NjMxNzU1MzksLTE0MjQ1MTkyMDZdfQ==
 -->
