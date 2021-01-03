@@ -54,7 +54,9 @@ p4 <- make_histogram(data_klasicka_trida, "Read", "Výsledky ze čtení", "Klasi
 (p1 + p3) / (p2 + p4)
 ```
 Výsledkem tohoto kódu jsou následující grafy:
+
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
+
 Z grafů vidíme že distribuce
 ## 2. Úkol
 ### Zadání
@@ -65,6 +67,6 @@ Z grafů vidíme že distribuce
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMyMDg5MTAsNjUzOTc4MjM2LDgwNj
+eyJoaXN0b3J5IjpbLTE0Mjc3Nzk1NzAsNjUzOTc4MjM2LDgwNj
 c5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIwNl19
 -->
