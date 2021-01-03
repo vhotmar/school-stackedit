@@ -1,5 +1,5 @@
 # Matematická statistika - Úkol č. 2
-Pro tento 
+Pro tento úkol jsem použil seed `212` (neboť mé datum narození je 2. 12.).
 ```r
 set.seed(212);
 n <- sample(200:300, size=1);
@@ -12,5 +12,5 @@ Dosahují děti z malých tříd lepších studijních výsledků než děti z k
 ### Řešení
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDQwMzIxXX0=
+eyJoaXN0b3J5IjpbLTE0MjQ1MTkyMDZdfQ==
 -->
