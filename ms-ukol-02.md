@@ -10,7 +10,11 @@ data <- STAR[indexy,];
 ### Zadání
 Dosahují děti z malých tříd lepších studijních výsledků než děti z klasické třídy? Porovnání proveďte zvlášť pro matematiku a zvlášť pro čtení.
 ### Řešení
-
+Nejprve si naše data rozdělíme na 2 části:
+```r
+data_mensi_trida <- subset(data, Class == 'small')
+data_klasicka_trida <- subset(data, Class == 'regular')
+```
 
 ## 2. Úkol
 ### Zadání
@@ -21,6 +25,6 @@ Dosahují děti z malých tříd lepších studijních výsledků než děti z k
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjMxNzU1MzksLTE0MjQ1MTkyMDZdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMTA5NjA2NDYsLTE4NjMxNzU1MzksLT
+E0MjQ1MTkyMDZdfQ==
 -->
