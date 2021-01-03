@@ -55,7 +55,7 @@ p4 <- make_histogram(data_klasicka_trida, "Read", "Výsledky ze čtení", "Klasi
 ```
 Výsledkem tohoto kódu jsou následující grafy:
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
-Vidíme, že 
+Z grafů vidíme že distribuce
 ## 2. Úkol
 ### Zadání
 
@@ -65,6 +65,6 @@ Vidíme, že
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTE1MDA0MSw2NTM5NzgyMzYsODA2Nz
-kwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
+eyJoaXN0b3J5IjpbLTEyMDMyMDg5MTAsNjUzOTc4MjM2LDgwNj
+c5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIwNl19
 -->
