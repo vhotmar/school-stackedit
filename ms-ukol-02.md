@@ -2,7 +2,7 @@
 Pro tento úkol jsem použil seed `212` (neboť mé datum narození je 2. 12.). Dále načteme potřebné knihovny pro pohodlnou práci s R.
 ```r
 library(ggplot2)
-library
+library(patchwork)
 
 set.seed(212);
 n <- sample(200:300, size=1);
@@ -57,7 +57,7 @@ Výsledkem tohoto kódu jsou následující grafy:
 
 ![Graf](https://raw.githubusercontent.com/vhotmar/school-stackedit/main/ms_plot_01_01.svg)
 
-Z grafů vidíme že distribuce
+Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení bude pro obě dvě třídy velice podobná.
 ## 2. Úkol
 ### Zadání
 
@@ -67,6 +67,6 @@ Z grafů vidíme že distribuce
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc3Nzk1NzAsNjUzOTc4MjM2LDgwNj
-c5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIwNl19
+eyJoaXN0b3J5IjpbMjExODUzMTUwNSw2NTM5NzgyMzYsODA2Nz
+kwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5MjA2XX0=
 -->
