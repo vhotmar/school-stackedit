@@ -62,7 +62,11 @@ Z grafů můžeme odhadnout že distribuce výsledků z matematiky i ze čtení 
 
 ## 2. Úkol
 ### Zadání
-Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
+Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma?
+### Řešení
+```r
+summary(data$Lunch)
+```
 
 ## 3. Úkol
 ### Zadání
@@ -70,7 +74,7 @@ Je pravdivé tvrzení, že více než polovina dětí má nárok na oběd zdarma
 ## 4. Úkol
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYwMzkxODQsLTcwNzMxMzIwOCw2NT
-M5NzgyMzYsODA2NzkwOTM2LC0xODYzMTc1NTM5LC0xNDI0NTE5
-MjA2XX0=
+eyJoaXN0b3J5IjpbNDEyNTUzMTM5LC03MDczMTMyMDgsNjUzOT
+c4MjM2LDgwNjc5MDkzNiwtMTg2MzE3NTUzOSwtMTQyNDUxOTIw
+Nl19
 -->
